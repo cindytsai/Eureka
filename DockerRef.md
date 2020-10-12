@@ -4,7 +4,7 @@
 
 * Build an image
 ```
-sudo docker build -t="<REPOSITORY>:<tag>"
+sudo docker build -t="<REPOSITORY>:<tag>" <Dockerfile_Path>
 ```
 
 * Run an image
