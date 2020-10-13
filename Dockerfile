@@ -4,8 +4,8 @@ FROM centos:7.7.1908
 
 MAINTAINER cindytsai turquoisea.tsai@gmail.com
 
-COPY installation.sh /.
+RUN ["mkdir", "/InstallScript"]
+COPY InstallScript /InstallScript
 
-RUN ["cd", "/"]
-RUN ["chmod", "777", "installation.sh"]
-RUN ["/bin/bash", "installation.sh"]
+RUN ["cd", "/InstallScript"]
+RUN ["sh", "installation.sh"]
