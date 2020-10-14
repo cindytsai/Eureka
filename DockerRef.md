@@ -4,7 +4,7 @@
 
 * Build an image
 ```
-sudo docker build -t="<REPOSITORY>:<tag>" <Dockerfile_Path>
+sudo docker build -t="<REPOSITORY>:<tag>" <Dockerfile_Path> .
 ```
 
 * Run an image
@@ -12,9 +12,9 @@ sudo docker build -t="<REPOSITORY>:<tag>" <Dockerfile_Path>
 docker run -it <REPOSITORY>:<tag>
 ```
 
-* Check the running container
+* Check the container
 ```
-docker ps
+docker ps -a
 ```
 
 * Check the output log from docker
