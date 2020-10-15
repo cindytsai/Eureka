@@ -14,8 +14,10 @@ echo "Installing OpenMPI ..."
 /bin/bash /InstallScript/OpenMPI/install.sh
 # 3. Install fftw
 echo "Installing fftw ..."
-/bin/bash /InstallScript/fftw/install.sh
-
+/bin/bash /InstallScript/FFTW/install.sh
+# 4. Install HDF5
+echo "Installing HDF5 ..."
+/bin/bash /InstallScript/HDF5/install.sh
 
 # Setup .bashrc file at /home
 

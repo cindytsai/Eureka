@@ -24,3 +24,10 @@
 * Notes : 
   * Source `src` not linked to `fftw` package.
   * No `default` directory.
+
+## HDF5
+* Version : **1.10.6**
+* Path : `/software/hdf5/1.10.6`
+* Notes : 
+  * Source `src` not linked to `hdf5` package.
+  * No `default` directory.
