@@ -3,6 +3,7 @@ echo "Create directory /software"
 mkdir /software
 echo "Create directory /packages, to temporary store software packages."
 mkdir /packages
+
 # 0. Install Development tools
 yum -y group install "Development Tools"
 # 1. Install Valgrind
@@ -13,7 +14,9 @@ echo "Installing OpenMPI ..."
 /bin/bash /InstallScript/OpenMPI/install.sh
 # 3. Install fftw
 echo "Installing fftw ..."
-#curl -o fftw-2.1.5.tar.gz http://www.fftw.org/fftw-2.1.5.tar.gz
-#tar zxvf fftw-2.1.5.tar.gz
-#cd fftw-2.1.5
-#./configure --prefix=/software/fftw/default
+/bin/bash /InstallScript/fftw/install.sh
+
+
+# Setup .bashrc file at /home
+
+# Remove unneeded packages
