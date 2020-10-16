@@ -20,7 +20,9 @@ echo "Installing HDF5 ..."
 /bin/bash /InstallScript/HDF5/install.sh
 # 5. Install GSL
 /bin/bash /InstallScript/GSL/install.sh
-# 6. Install Python 2.7 / 3.8
+# 6. Install Python 2.7
+/bin/bash /InstallScript/Python2.7/install.sh
+/bin/bash /InstallScript/Python2.7/installPythonPackages.sh
 
 # Setup .bashrc file at /home
 

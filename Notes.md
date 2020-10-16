@@ -38,3 +38,9 @@
 * Notes : 
   * Source `src` not linked to `gsl` package.
   * No `default` directory.
+
+## Python
+* Version : **2.7.18**
+* Path : `/work1/cindytsai/Software/python/python2.7`
+* Notes :
+  * Install pip and python packages are in different shell script.
