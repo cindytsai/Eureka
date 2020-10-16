@@ -18,6 +18,9 @@ echo "Installing fftw ..."
 # 4. Install HDF5
 echo "Installing HDF5 ..."
 /bin/bash /InstallScript/HDF5/install.sh
+# 5. Install GSL
+/bin/bash /InstallScript/GSL/install.sh
+# 6. Install Python 2.7 / 3.8
 
 # Setup .bashrc file at /home
 
