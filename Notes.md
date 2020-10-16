@@ -31,3 +31,10 @@
 * Notes : 
   * Source `src` not linked to `hdf5` package.
   * No `default` directory.
+
+## GSL
+* Version : **2.6**
+* Path : `/software/gsl/2.6`
+* Notes : 
+  * Source `src` not linked to `gsl` package.
+  * No `default` directory.
