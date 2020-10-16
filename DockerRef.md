@@ -22,7 +22,15 @@ docker ps -a
 docker logs <CONTAINER_ID or NAMES>
 ```
 
-* 
+* New tag
+```
+docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
+```
+
+* Push to docker hub
+```
+docker push <REPOSITORY>:<tag>
+```
 
 ## Dockerfile
 
