@@ -1,4 +1,11 @@
 # Single Node Eureka on Calab-NTU
+> Some of the settings may not be the most optimal way, since I'm newbies to "Docker".
+
+## Content
+* [Usage](https://github.com/cindytsai/Eureka#usage)
+* [Tags](https://github.com/cindytsai/Eureka#tags)
+  * [base](https://github.com/cindytsai/Eureka#base)
+  * [python2.7](https://github.com/cindytsai/Eureka#python2.7)
 
 ## Usage
 * Pull the image from *Docker Hub*.
@@ -12,7 +19,6 @@ FROM cindytsai/eureka:<tag>
 COPY <HOST_DIR> <CONTAINER_DIR> 
 ```
 * Some useful commands in [DockerRef.md](./DockerRef.md)
-> Some of the settings may not be the most optimal way, since I'm newbies to "Docker".
 
 ## Tags
 ### `base`
