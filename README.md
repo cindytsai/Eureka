@@ -2,6 +2,8 @@
 
 ## Tags
 ### `base`
+* Packages
+
 | Packages | Version |          Directory          | Notes |
 |:--------:|:-------:|:---------------------------:|:-----:|
 | Valgrind |  3.15.0 | /software/valgrind/3.15.0   |       |
@@ -9,6 +11,20 @@
 |   FFTW   |  2.1.5  | /software/openmpi/2.1.5-gnu |       |
 |   HDF5   |  1.10.6 | /software/hdf5/1.10.6       |       |
 |    GSL   |   2.6   | /software/gsl/2.6           |       |
+
+* `.bashrc`
+```shell
+LD_LIBRARY_PATH=/software/openmpi/3.1.5-gnu/lib:$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=/software/gsl/2.6/lib:$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=/software/hdf5/1.10.6/lib:$LD_LIBRARY_PATH
+
+PATH=/software/openmpi/3.1.5-gnu/bin:$PATH
+PATH=/software/valgrind/3.15.0/bin:$PATH
+PATH=/software/hdf5/1.10.6/bin:$PATH
+
+export LD_LIBRARY_PATH
+export PATH
+```
 
 ## Software and Packages
 * Temporary packages are under `/packages`.
