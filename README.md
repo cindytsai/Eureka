@@ -5,7 +5,7 @@
 * [Usage](https://github.com/cindytsai/Eureka#usage)
 * [Tags](https://github.com/cindytsai/Eureka#tags)
   * [base](https://github.com/cindytsai/Eureka#base)
-  * [python2.7](https://github.com/cindytsai/Eureka#python2.7)
+  * [python2.7](https://github.com/cindytsai/Eureka#python27)
 
 ## Usage
 * Pull the image from *Docker Hub*.
