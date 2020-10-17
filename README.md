@@ -8,7 +8,7 @@
 |:--------:|:-------:|:---------------------------:|:-----:|
 | Valgrind |  3.15.0 | /software/valgrind/3.15.0   |       |
 |  OpenMPI |  3.1.5  | /software/openmpi/3.1.5-gnu |       |
-|   FFTW   |  2.1.5  | /software/openmpi/2.1.5-gnu |       |
+|   FFTW   |  2.1.5  | /software/fftw/2.1.5-gnu    |       |
 |   HDF5   |  1.10.6 | /software/hdf5/1.10.6       |       |
 |    GSL   |   2.6   | /software/gsl/2.6           |       |
 
@@ -33,7 +33,7 @@ export PATH
 |:--------:|:-------:|:------------------------------------------:|:-----:|
 | Valgrind |  3.15.0 | /software/valgrind/3.15.0                  |       |
 |  OpenMPI |  3.1.5  | /software/openmpi/3.1.5-gnu                |       |
-|   FFTW   |  2.1.5  | /software/openmpi/2.1.5-gnu                |       |
+|   FFTW   |  2.1.5  | /software/fftw/2.1.5-gnu                   |       |
 |   HDF5   |  1.10.6 | /software/hdf5/1.10.6                      |       |
 |    GSL   |   2.6   | /software/gsl/2.6                          |       |
 | Python   | 2.7.18  | /work1/cindytsai/Software/python/python2.7 |       |
@@ -75,7 +75,7 @@ export PATH
 
 ### FFTW
 * Version : **2.1.5**
-* Path : `/software/openmpi/2.1.5-gnu`
+* Path : `/software/fftw/2.1.5-gnu`
 * Notes : 
   * Source `src` not linked to `fftw` package.
   * No `default` directory.
