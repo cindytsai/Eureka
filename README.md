@@ -1,5 +1,19 @@
 # Single Node Eureka on Calab-NTU
 
+## Usage
+* Pull the image from *Docker Hub*.
+```
+docker pull cindytsai/eureka:<tag>
+```
+* Run your projects on it using `Dockerfile`.
+```Dockerfile
+FROM cindytsai/eureka:<tag>
+
+COPY <HOST_DIR> <CONTAINER_DIR> 
+```
+* Some useful commands in [DockerRef.md](./DockerRef.md)
+> Some of the settings may not be the most optimal way, since I'm newbies to "Docker".
+
 ## Tags
 ### `base`
 * **Packages**
