@@ -1,5 +1,15 @@
 # Notes on the docker image
 
+## Tags
+### `base`
+| Packages | Version |          Directory          | Notes |
+|:--------:|:-------:|:---------------------------:|:-----:|
+| Valgrind |  3.15.0 | /software/valgrind/3.15.0   |       |
+|  OpenMPI |  3.1.5  | /software/openmpi/3.1.5-gnu |       |
+|   FFTW   |  2.1.5  | /software/openmpi/2.1.5-gnu |       |
+|   HDF5   |  1.10.6 | /software/hdf5/1.10.6       |       |
+|    GSL   |   2.6   | /software/gsl/2.6           |       |
+
 ## Software and Packages
 * Temporary packages are under `/packages`.
 
