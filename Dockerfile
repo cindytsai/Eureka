@@ -7,3 +7,4 @@ RUN ["mkdir", "/InstallScript"]
 COPY /InstallScript /InstallScript
 RUN ["cd", "/InstallScript"]
 RUN ["/bin/bash", "/InstallScript/installation.sh"]
+RUN /bin/bash -c "source /InstallScript/.bashrc"
