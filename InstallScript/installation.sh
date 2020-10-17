@@ -3,7 +3,6 @@ echo "Create directory /software"
 mkdir /software
 echo "Create directory /packages, to temporary store software packages."
 mkdir /packages
-
 # 0. Install Development tools
 yum -y group install "Development Tools"
 # 1. Install Valgrind
@@ -19,12 +18,11 @@ echo "Installing fftw ..."
 echo "Installing HDF5 ..."
 /bin/bash /InstallScript/HDF5/install.sh
 # 5. Install GSL
+echo "Installing GSL ..."
 /bin/bash /InstallScript/GSL/install.sh
 # 6. Install Python 2.7 
+echo "Installing Python2.7 ..."
 /bin/bash /InstallScript/Python2.7/install.sh
-# 7. Setup .bashrc file at /home
-cp -f /InstallScript/.bashrc /home/.
-source /home/.bashrc
 # 8. Install Python packages using pip
 /bin/bash /InstallScript/Python2.7/installPythonPackages.sh
 # Remove unneeded packages (Optional)

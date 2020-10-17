@@ -1,4 +1,5 @@
 # Prerequsite packages for python and pip
+# For zlib and openssl
 cd /packages
 git clone https://github.com/madler/zlib.git 
 cd zlib
@@ -16,3 +17,7 @@ cd Python-2.7.18
 ./configure --prefix=/work1/cindytsai/Software/python/python2.7 --enable-shared --enable-ipv6 LDFLAGS=-Wl,-rpath=/work1/cindytsai/Software/python/python2.7/lib,--disable-new-dtags
 make
 make install
+# Get pip for python2.7
+cd /packages
+curl -o get-pip.py https://bootstrap.pypa.io/get-pip.py
+/work1/cindytsai/Software/python/python2.7/bin/python get-pip.py
