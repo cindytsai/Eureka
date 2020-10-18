@@ -22,7 +22,7 @@ COPY <HOST_DIR> <CONTAINER_DIR>
 * Some useful commands in [DockerRef.md](./DockerRef.md)
 
 * Full install script and `Dockerfile`
-  * [python2.7](https://github.com/cindytsai/Eureka/tree/python2.8)
+  * [python2.7](https://github.com/cindytsai/Eureka/tree/python2.7)
   * [python3.8](https://github.com/cindytsai/Eureka/tree/python3.8)
 
 ## Tags
