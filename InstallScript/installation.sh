@@ -20,9 +20,11 @@ echo "Installing HDF5 ..."
 # 5. Install GSL
 echo "Installing GSL ..."
 /bin/bash /InstallScript/GSL/install.sh
-# 6. Install Python 2.7 
-echo "Installing Python2.7 ..."
-/bin/bash /InstallScript/Python2.7/install.sh
+# 6. Install GCC
+/bin/bash /InstallScript/GCC/install.sh
+# 7. Install Python 3.8 
+echo "Installing Python3.8 ..."
+/bin/bash /InstallScript/Python3.8/install.sh
 # 8. Install Python packages using pip
-/bin/bash /InstallScript/Python2.7/installPythonPackages.sh
+/bin/bash /InstallScript/Python3.8/installPythonPackages.sh
 # Remove unneeded packages (Optional)
