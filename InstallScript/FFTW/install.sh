@@ -3,6 +3,7 @@ curl -o fftw-2.1.5.tar.gz http://www.fftw.org/fftw-2.1.5.tar.gz
 tar zxvf fftw-2.1.5.tar.gz
 rm -f fftw-2.1.5.tar.gz
 cd fftw-2.1.5
+export PATH=/software/gcc/9.3.0/bin:$PATH
 export FFTW_PATH=/software/fftw/2.1.5-gnu
 export MPI_PATH=/software/openmpi/3.1.5-gnu
 export CC=gcc
