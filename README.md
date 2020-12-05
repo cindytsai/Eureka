@@ -36,6 +36,7 @@ COPY <HOST_DIR> <CONTAINER_DIR>
 |   FFTW   |  2.1.5  | /software/fftw/2.1.5-gnu    |       |
 |   HDF5   |  1.10.6 | /software/hdf5/1.10.6       |       |
 |    GSL   |   2.6   | /software/gsl/2.6           |       |
+|    GCC   |  9.3.0  | /software/gcc/9.3.0         |       |
 
 * **Environment Variable**
 ```shell
@@ -95,6 +96,7 @@ export PATH
 |   HDF5   |  1.10.6 | /software/hdf5/1.10.6                      |       |
 |    GSL   |   2.6   | /software/gsl/2.6                          |       |
 | Python   | 3.8.6   | /work1/cindytsai/Software/python/python3.8 |       |
+|    GCC   |  9.3.0  | /software/gcc/9.3.0                        |       |
 
 * **Environment Variable**
 ```shell
@@ -102,8 +104,8 @@ LD_LIBRARY_PATH=/software/openmpi/3.1.5-gnu/lib:$LD_LIBRARY_PATH
 LD_LIBRARY_PATH=/software/gsl/2.6/lib:$LD_LIBRARY_PATH
 LD_LIBRARY_PATH=/software/hdf5/1.10.6/lib:$LD_LIBRARY_PATH
 LD_LIBRARY_PATH=/work1/cindytsai/Project/libyt/lib:$LD_LIBRARY_PATH
-LD_LIBRARY_PATH=/software/gcc/9.3.0/lib:$LD_LIBRARY_PATH
 LD_LIBRARY_PATH=/software/gcc/9.3.0/lib64:$LD_LIBRARY_PATH
+LD_LIBRARY_PATH=/software/gcc/9.3.0/lib:$LD_LIBRARY_PATH
 LD_LIBRARY_PATH=/work1/cindytsai/Software/python/python3.8/lib:$LD_LIBRARY_PATH
 
 PATH=/software/openmpi/3.1.5-gnu/bin:$PATH
@@ -114,4 +116,5 @@ PATH=/work1/cindytsai/Software/python/python3.8/bin:$PATH
 
 export LD_LIBRARY_PATH
 export PATH
+
 ```
