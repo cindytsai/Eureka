@@ -1,5 +1,5 @@
 # Prerequsite packages for python and pip
-# For zlib , openssl, and libffi-devel
+# For zlib , openssl, libffi-devel, liblzma-dev, and lzma
 cd /packages
 git clone https://github.com/madler/zlib.git 
 cd zlib
@@ -9,6 +9,7 @@ make install
 cd /packages
 yum -y install openssl-devel openssl
 yum -y install libffi-devel
+yum -y install xz-devel
 # For Python3.8.6
 cd /packages
 curl -o Python-3.8.6.tgz https://www.python.org/ftp/python/3.8.6/Python-3.8.6.tgz
